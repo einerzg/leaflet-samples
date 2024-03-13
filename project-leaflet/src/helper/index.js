@@ -1,5 +1,5 @@
 import { tileLayer } from "leaflet";
-import { layers, layersWMS } from "./data";
+import { layers, layersWMS } from "../data/layers";
 import { MAX_ZOOM, MIN_ZOOM } from "./constants";
 
 // Const for basic tile layer

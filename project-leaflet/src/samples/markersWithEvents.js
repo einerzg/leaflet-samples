@@ -19,11 +19,14 @@ uniquindioMarker.on('moveend', () => console.log('Move end'));
 uniquindioMarker.on('dragend', () => console.log('Drag end'));
 
 // Mouse events
-uniquindioMarker.on('click', () => console.log('Click'));
+uniquindioMarker.on('click', () => {
+    console.log('Click')
+    // remove marker
+    map.removeLayer(uniquindioMarker);
+});
 uniquindioMarker.on('dnclick', () => console.log('Double click'));
 uniquindioMarker.on('contextmenu', () => console.log('Click rigth'));
 uniquindioMarker.on('mousedown', () => console.log('Mouse down'));
 uniquindioMarker.on('mouseup', () => console.log('Mouse up'));
 uniquindioMarker.on('mouseover', () => console.log('Mouse over'));
 uniquindioMarker.on('mouseout', () => console.log('Mouse out'));
-
