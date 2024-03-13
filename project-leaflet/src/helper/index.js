@@ -1,11 +1,12 @@
 import { tileLayer } from "leaflet";
 import { layers, layersWMS } from "./data";
+import { MAX_ZOOM, MIN_ZOOM } from "./constants";
 
 // Const for basic tile layer
 const DEFAULT_LAYER = layers.baseLayers.default;
 const DEFAULT_OPTIONS = {
-  minZoom: 0,
-  maxZoom: 19,
+  minZoom: MIN_ZOOM,
+  maxZoom: MAX_ZOOM,
   attribution: DEFAULT_LAYER.atribution,
 };
 
