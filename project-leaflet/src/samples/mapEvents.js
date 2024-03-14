@@ -15,6 +15,7 @@ const map = new Map("map", {
 
 createTileLayers().addTo(map);
 
+// Interacion events
 map.on("click", function (eventData) {
   console.log("Clicking", eventData);
   marker(eventData.latlng).addTo(map).bindPopup(eventData.latlng.toString())
@@ -33,6 +34,7 @@ map.on("keypress", function (eventData) {
   console.log("Keypress", eventData);
 });
 
+// location events
 map.on("locationerror", function(eventData) {
     console.log("locationerror", eventData);
 });
