@@ -5,6 +5,11 @@ export const LAT_ARMENIA = 4.53389;
 export const LNG_ARMENIA = -75.68111;
 export const LAT_UNIQUINDIO = 4.55402805;
 export const LNG_UNIQUINDIO = -75.6609262169371;
+export const LAT_HOSPITAL = 4.556018622373308;
+export const LNG_HOSPITAL = -75.65637499094011;
+export const LAT_RESTAURANT = 4.553622117507011;
+export const LNG_RESTAURANT = -75.65767653286457;
+
 export const MY_HOME = [
   [4.529810339986071, -75.63764559317406],
   [4.529098380398423, -75.63734271674505],
@@ -34,3 +39,8 @@ export const CALARCA = [
   [4.527444938727612, -75.63664587905856],
   [4.5304118061118, -75.63378294922158],
 ];
+
+export const icons = {
+  hospital: "../../../imgs/icons/hospital.png",
+  restaurant: "../../../imgs/icons/restaurant.png",
+};
