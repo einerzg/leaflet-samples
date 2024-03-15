@@ -1,13 +1,13 @@
 import { Map, control, polyline } from "leaflet";
-import { createTileLayers } from "../helper";
+import { createTileLayers } from "../../helper";
 import {
     CALARCA,
   DEFAULT_ZOOM,
   LAT_UNIQUINDIO,
   LNG_UNIQUINDIO,
   MY_HOME,
-} from "../helper/constants";
-import { layers } from "../data/layers";
+} from "../../helper/constants";
+import { layers } from "../../data/layers";
 
 const map = new Map("map", {
     doubleClickZoom: false,
@@ -36,4 +36,3 @@ const overlays = {
 };
 
 control.layers(baseLayers, overlays, { collapsed: false }).addTo(map);
-

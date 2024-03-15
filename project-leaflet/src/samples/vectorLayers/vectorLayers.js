@@ -1,5 +1,5 @@
 import { Map, circle, rectangle, polyline, polygon } from "leaflet";
-import { createTileLayers } from "../helper";
+import { createTileLayers } from "../../helper";
 import {
   CALARCA,
   DEFAULT_ZOOM,
@@ -8,8 +8,8 @@ import {
   LNG_ARMENIA,
   LNG_UNIQUINDIO,
   MY_HOME,
-} from "../helper/constants";
-import { layers } from "../data/layers";
+} from "../../helper/constants";
+import { layers } from "../../data/layers";
 
 const map = new Map("map").setView(
   [LAT_UNIQUINDIO, LNG_UNIQUINDIO],

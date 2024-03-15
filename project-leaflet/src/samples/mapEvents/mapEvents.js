@@ -1,10 +1,10 @@
 import { Map, marker } from "leaflet";
-import { createTileLayers } from "../helper";
+import { createTileLayers } from "../../helper";
 import {
   DEFAULT_ZOOM,
   LAT_UNIQUINDIO,
   LNG_UNIQUINDIO,
-} from "../helper/constants";
+} from "../../helper/constants";
 
 const map = new Map("map", {
     doubleClickZoom: false,

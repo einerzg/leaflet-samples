@@ -1,6 +1,6 @@
 import { Map, marker, popup } from "leaflet";
-import { createTileLayers } from "../helper";
-import { DEFAULT_ZOOM, LAT_UNIQUINDIO, LNG_UNIQUINDIO } from "../helper/constants";
+import { createTileLayers } from "../../helper";
+import { DEFAULT_ZOOM, LAT_UNIQUINDIO, LNG_UNIQUINDIO } from "../../helper/constants";
 
 const map = new Map("map").setView([LAT_UNIQUINDIO, LNG_UNIQUINDIO], DEFAULT_ZOOM);
 
@@ -11,11 +11,8 @@ const uniquindioMarker = marker([LAT_UNIQUINDIO, LNG_UNIQUINDIO], {
 }).addTo(map);
 
 // Dragging events
-uniquindioMarker.on('movestart', () => console.log('Start Move'));
 uniquindioMarker.on('dragstart', () => console.log('Start Drag'));
-uniquindioMarker.on('move', () => console.log('Moving'));
 uniquindioMarker.on('drag', () => console.log('Dragging'));
-uniquindioMarker.on('moveend', () => console.log('Move end'));
 uniquindioMarker.on('dragend', () => console.log('Drag end'));
 
 // Mouse events

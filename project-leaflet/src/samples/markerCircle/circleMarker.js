@@ -1,6 +1,6 @@
 import { Map, circleMarker } from "leaflet";
-import { createTileLayers } from "../helper";
-import { DEFAULT_ZOOM, LAT_UNIQUINDIO, LNG_UNIQUINDIO } from "../helper/constants";
+import { createTileLayers } from "../../helper";
+import { DEFAULT_ZOOM, LAT_UNIQUINDIO, LNG_UNIQUINDIO } from "../../helper/constants";
 
 const map = new Map("map").setView([LAT_UNIQUINDIO, LNG_UNIQUINDIO], DEFAULT_ZOOM);
 

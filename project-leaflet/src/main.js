@@ -1,6 +1,7 @@
 import { Map } from "leaflet";
 import { createTileLayers } from "./helper";
+import { DEFAULT_ZOOM, LAT_ARMENIA, LNG_ARMENIA } from "./helper/constants";
 
-const map = new Map('map').setView([4.53389, -75.68111], 13);
+const map = new Map('map').setView([LAT_ARMENIA, LNG_ARMENIA], DEFAULT_ZOOM);
 
 createTileLayers().addTo(map);
