@@ -1,31 +1,31 @@
 export const example = {
-  type: "FeatureCollection",
+  type: 'FeatureCollection',
   features: [
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        "marker-color": "#f7c308",
-        "marker-size": "large",
-        "marker-symbol": "school",
-        name: "Home",
+        'marker-color': '#f7c308',
+        'marker-size': 'large',
+        'marker-symbol': 'school',
+        name: 'Home'
       },
       geometry: {
         coordinates: [-75.61115513332994, 4.5293748680064425],
-        type: "Point",
+        type: 'Point'
       },
-      id: 0,
+      id: 0
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        stroke: "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        fill: "#dc2e2e",
-        "fill-opacity": 0.5,
+        stroke: '#555555',
+        'stroke-width': 2,
+        'stroke-opacity': 1,
+        fill: '#dc2e2e',
+        'fill-opacity': 0.5
       },
       geometry: {
-        type: "Polygon",
+        type: 'Polygon',
         coordinates: [
           [
             [-75.63743394546466, 4.804927954227804],
@@ -92,24 +92,24 @@ export const example = {
             [-75.61516919379169, 4.801636523025911],
             [-75.62247053380952, 4.803459201202832],
             [-75.62991602678814, 4.8045598794848825],
-            [-75.63743394546466, 4.804927954227804],
-          ],
-        ],
+            [-75.63743394546466, 4.804927954227804]
+          ]
+        ]
       },
-      id: 1,
+      id: 1
     },
     {
-      type: "Feature",
+      type: 'Feature',
       properties: {
-        "marker-color": "#7e7e7e",
-        "marker-size": "small",
-        "marker-symbol": "circle",
+        'marker-color': '#7e7e7e',
+        'marker-size': 'small',
+        'marker-symbol': 'circle'
       },
       geometry: {
         coordinates: [-75.50491090128456, 4.580862866408069],
-        type: "Point",
+        type: 'Point'
       },
-      id: 2,
-    },
-  ],
+      id: 2
+    }
+  ]
 };
