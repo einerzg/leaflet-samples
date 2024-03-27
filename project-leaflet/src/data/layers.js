@@ -17,7 +17,8 @@ const ATRIBUTIONS_LIST = {
     '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
   ThunderForest:
     '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  USGS: 'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>'
+  USGS: 'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>',
+  Google: '&copy; <a href="http://www.google.com/copyright">Google</a>'
 };
 
 const thunderForestKey = 'apikey=883b04efb7454e2da35b028c800fa3a6';
@@ -108,6 +109,16 @@ export const layers = {
     hikeBike: {
       map: 'https://tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png',
       atribtuion: ATRIBUTIONS_LIST.OSM
+    },
+    google: {
+      GoogleSatellite: {
+        map: 'http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}',
+        atribution: ATRIBUTIONS_LIST.Google
+      },
+      GoogleTraffic: {
+        map: 'https://mt1.google.com/vt?lyrs=h@159000000,traffic|seconds_into_week:-1&style=3&x={x}&y={y}&z={z}',
+        atribution: ATRIBUTIONS_LIST.Google
+      }
     }
   },
   overlayers: {

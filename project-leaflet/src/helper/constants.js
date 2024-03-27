@@ -10,6 +10,11 @@ export const LNG_HOSPITAL = -75.65637499094011;
 export const LAT_RESTAURANT = 4.553622117507011;
 export const LNG_RESTAURANT = -75.65767653286457;
 
+// Inicio Constantes Proyecto César
+export const LAT_CAICEDONIA = 4.332510;
+export const LNG_CAICEDONIA = -75.831661;
+// Fin
+
 export const MY_HOME = [
   [4.529810339986071, -75.63764559317406],
   [4.529098380398423, -75.63734271674505],
@@ -42,5 +47,12 @@ export const CALARCA = [
 
 export const icons = {
   hospital: '/icons/hospital.png',
-  restaurant: '/icons/restaurant.png'
+  restaurant: '/icons/restaurant.png',
+  book_addresses: '/icons/book_addresses.png',
+  sport_soccer: '/icons/sport_soccer.png',
+  building: '/icons/building.png',
+  drink: '/icons/drink.png',
+  house: '/icons/house.png',
+  award_star_gold_3: '/icons/award_star_gold_3.png',
+  pill: '/icons/pill.png'
 };
