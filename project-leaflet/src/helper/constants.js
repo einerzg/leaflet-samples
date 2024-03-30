@@ -56,4 +56,5 @@ export const icons = {
   award_star_gold_3: '/icons/award_star_gold_3.png',
   pill: '/icons/pill.png',
   public: '/icons/publico.png'
+
 };
